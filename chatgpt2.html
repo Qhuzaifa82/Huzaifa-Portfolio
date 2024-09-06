@@ -1,0 +1,242 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .education-section {
+            background: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .education-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        .education-logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .education-details {
+            margin-left: 20px;
+        }
+
+        .institution-name {
+            font-size: 26px;
+            font-weight: 700;
+            color: #333;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .degree-major {
+            font-size: 20px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .education-dates {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .education-item:not(:last-child)::after {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: #ccc;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .education-item:hover .institution-name {
+            color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .education-logo img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<section class="education-section">
+    <div class="education-container">
+        <div class="education-item">
+            <div class="education-logo">
+                <img src="https://via.placeholder.com/60" alt="Institution Logo">
+            </div>
+            <div class="education-details">
+                <h3 class="institution-name">University Name</h3>
+                <p class="degree-major">Bachelor of Science in Software Engineering</p>
+                <p class="education-dates">2017 - 2021</p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-logo">
+                <img src="https://via.placeholder.com/60" alt="Institution Logo">
+            </div>
+            <div class="education-details">
+                <h3 class="institution-name">Another University</h3>
+                <p class="degree-major">Master of Science in Computer Science</p>
+                <p class="education-dates">2022 - 2024</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Section - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #ccc;
+            background-color: #000;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .education-section {
+            background-color: #584949;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(203, 103, 36, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .education-section:hover {
+            box-shadow: 0 15px 40px rgba(203, 103, 36, 0.2);
+        }
+        h2 {
+            color: #d3c1af;
+            border-bottom: 2px solid #cb6724;
+            padding-bottom: 10px;
+        }
+        .education-item {
+            background-color: #000;
+            border-left: 4px solid #cb6724;
+            margin-bottom: 15px;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        .education-item:hover {
+            transform: translateX(10px);
+        }
+        .degree {
+            font-weight: bold;
+            color: #d3c1af;
+        }
+        .institution {
+            color: #807372;
+        }
+        .year {
+            float: right;
+            color: #6a5a59;
+        }
+        .details {
+            margin-top: 10px;
+            display: none;
+        }
+        .show-details {
+            color: #cb6724;
+            cursor: pointer;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        .show-details:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <span class="year">2020</span>
+            <div class="degree">Bachelor of Science in Computer Science</div>
+            <div class="institution">University of Technology</div>
+            <div class="show-details">Show Details</div>
+            <div class="details">
+                <p>Relevant coursework: Data Structures, Algorithms, Web Development</p>
+                <p>Graduated with honors, GPA: 3.8/4.0</p>
+            </div>
+        </div>
+        <div class="education-item">
+            <span class="year">2018</span>
+            <div class="degree">Associate's Degree in Information Technology</div>
+            <div class="institution">Community College of Technology</div>
+            <div class="show-details">Show Details</div>
+            <div class="details">
+                <p>Focus on network administration and cybersecurity</p>
+                <p>Completed internship at local IT firm</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.show-details').forEach(button => {
+            button.addEventListener('click', () => {
+                const details = button.nextElementSibling;
+                if (details.style.display === 'none' || details.style.display === '') {
+                    details.style.display = 'block';
+                    button.textContent = 'Hide Details';
+                } else {
+                    details.style.display = 'none';
+                    button.textContent = 'Show Details';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
